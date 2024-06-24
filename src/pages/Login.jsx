@@ -26,7 +26,9 @@ const Login = () => {
     setShowPassword(!showPassword);
   };
 
-  const handleLogin = async (e) => {};
+  const handleLogin = async (e) => {
+    navigate("/dashboard")
+  };
 
   const handleCloseSnackbar = () => {
     setError("");
